@@ -1,4 +1,4 @@
-# Blur Image Sharpening
+# Blur Image Misrecognition
 
 This repository contains the demo code to reproduce the results in our manuscript: "[Conflicting Bottom-up and Top-down Signals during Misrecognition of Visual Objects]()". 
 We demonstrate in this paper that during misrecognition, lower visual areas mimic representation of the actual stimulus category while deeper semantic areas mimic representation of the behavioral response. For more details, please refer to the manuscript.
