@@ -45,9 +45,9 @@ The folder organization should be as follows
         +-- PredictFeatures.m (Use the trained feature decoders to predict features from test fMRI data)
         |
         +-- Run_Analysis.m (Runs the analysis after feature prediction)
-		|
+        |
         +-- ComputePredCategScore.m (Calculates the decoded cateogry score matrices for all subjects)
-		|
+        |
         +-- ComputeSimCategScore.m (Calculates the behavioral and true cateogry score matrices for all subjects)
         |
         +-- CrossCatScore.m (Support function for ComputeSimCategScore.m)
@@ -55,23 +55,23 @@ The folder organization should be as follows
         +-- ComputeScoreSimilarity.m  (Computes category score similarities and plots them)
         |
         data/ --+-- Training_S1.mat (Training fMRI data and DNN features, subject 1)
-		|       |
+        |       |
         |       +-- Test_S1.mat (Test fMRI data and DNN features, subject 1)
-		|		|
-		|		+-- Training_S2.mat (Training fMRI data and DNN features, subject 2)
-		|       |
+        |       |
+        |       +-- Training_S2.mat (Training fMRI data and DNN features, subject 2)
+        |       |
         |       +-- Test_S2.mat (Test fMRI data and DNN features, subject 2)
-		|		|
-		|		+-- Training_S3.mat (Training fMRI data and DNN features, subject 3)
-		|       |
+        |       |
+        |       +-- Training_S3.mat (Training fMRI data and DNN features, subject 3)
+        |       |
         |       +-- Test_S3.mat (Test fMRI data and DNN features, subject 3)
-		|		|
-		|		+-- Training_S4.mat (Training fMRI data and DNN features, subject 4)
-		|       |
+        |       |
+        |       +-- Training_S4.mat (Training fMRI data and DNN features, subject 4)
+        |       |
         |       +-- Test_S4.mat (Test fMRI data and DNN features, subject 4)
-		|		|
-		|		+-- Training_S5.mat (Training fMRI data and DNN features, subject 5)
-		|       |
+        |       |
+        |       +-- Training_S5.mat (Training fMRI data and DNN features, subject 5)
+        |       |
         |       +-- Test_S5.mat (Test fMRI data and DNN features, subject 5)
         |       |
         |       +-- Behavioral_data.mat (Behavioral response results, all subjects)
@@ -81,11 +81,11 @@ The folder organization should be as follows
         |       +-- Feature_Normalization.mat (DNN feature mean and standard deviation, used in the decoder training)
         |
         lib/ (contains all the support functions needed)
-		|
+        |
         models/ (to store the DNN feature models)
-		|
+        |
         results/ (to store all resulting matrices)
-		|
+        |
         tmp/ (Support folder to support parallelization of decoder training)
 ```
 
