@@ -5,25 +5,25 @@ We demonstrate in this paper that during misrecognition, lower visual areas mimi
 
 ## Data
 
-To apply the algorithm on our data to be able to reproduce the results reported in the manuscript, you should [download](doi.org/10.6084/m9.figshare.7562516) the data (from a separate repository) and load it to the data subfolder.
+To apply the algorithm on our data to be able to reproduce the results reported in the manuscript, you should [download](http://www.doi.org/10.6084/m9.figshare.7562516) the data (from a separate repository) and load it to the data subfolder.
 Data includes fMRI data for five subjects (decoder training and blurred test images) and visual features of DNN layers from 1 to 8 (extracted via [Matconvnet](http://www.vlfeat.org/matconvnet/)).
 Also behavioral response data from the five subjects and image representative category vectors. Data is available to download from [FigShare]().
 
 Data files:
 
-- [Behavioral_data.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Preferred_Img_Features.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Feature_Normalization.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Training_S1.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Training_S2.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Training_S3.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Training_S4.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Training_S5.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Test_S1.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Test_S2.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Test_S3.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Test_S4.mat](doi.org/10.6084/m9.figshare.7562516)
-- [Test_S5.mat](doi.org/10.6084/m9.figshare.7562516)
+- [Behavioral_data.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Preferred_Img_Features.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Feature_Normalization.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Training_S1.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Training_S2.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Training_S3.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Training_S4.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Training_S5.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Test_S1.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Test_S2.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Test_S3.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Test_S4.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
+- [Test_S5.mat](http://www.doi.org/10.6084/m9.figshare.7562516)
 
 
 ### Prerequisites
