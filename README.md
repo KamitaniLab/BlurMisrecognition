@@ -7,7 +7,7 @@ We demonstrate in this paper that during misrecognition, lower visual areas mimi
 
 To apply the algorithm on our data to be able to reproduce the results reported in the manuscript, you should [download](http://www.doi.org/10.6084/m9.figshare.7562516) the data (from a separate repository) and load it to the data subfolder.
 Data includes fMRI data for five subjects (decoder training and blurred test images) and visual features of DNN layers from 1 to 8 (extracted via [Matconvnet](http://www.vlfeat.org/matconvnet/)).
-Also behavioral response data from the five subjects and image representative category vectors. Data is available to download from [FigShare]().
+Also behavioral response data from the five subjects and image representative category vectors. Data is available to download from [FigShare](https://figshare.com/articles/Blur_Misrecognition/7562516).
 
 Data files:
 
